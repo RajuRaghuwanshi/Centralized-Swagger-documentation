@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eurekaserver
+server:
+  port: 8761
+
+
+eureka:
+  client:
+    enabled: true
+    register-with-eureka: false
+    fetch-registry: false
+
+swagger:
+  config:
+    refreshrate: 5000
+
